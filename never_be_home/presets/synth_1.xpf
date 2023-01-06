@@ -1,50 +1,50 @@
 <?xml version="1.0"?>
 <!DOCTYPE lmms-project>
-<lmms-project creator="LMMS" creatorversion="1.2.2" type="instrumenttracksettings" version="1.0">
+<lmms-project creator="LMMS" type="instrumenttracksettings" version="1.0" creatorversion="1.2.2">
   <head/>
-  <instrumenttracksettings muted="0" name="synth_1" type="0" solo="0">
-    <instrumenttrack vol="69.599998" usemasterpitch="1" pitchrange="1" pitch="0" basenote="45" pan="-0.2" fxch="0">
+  <instrumenttracksettings solo="0" muted="0" name="synth_1" type="0">
+    <instrumenttrack vol="151.2" usemasterpitch="1" fxch="0" pan="-0.2" pitchrange="1" basenote="45" pitch="0">
       <instrument name="tripleoscillator">
-        <tripleoscillator userwavefile2="" stphdetun0="0" wavetype1="7" modalgo3="2" finel1="-3" finel2="-5" pan1="0" wavetype2="0" coarse1="-24" pan0="0" finer1="10" coarse2="-24" coarse0="-24" stphdetun2="0" finer0="15" finel0="-7" stphdetun1="0" phoffset1="60" userwavefile1="" wavetype0="3" phoffset2="256" userwavefile0="" vol1="129" vol0="52" modalgo1="0" phoffset0="2" modalgo2="1" finer2="0" vol2="60" pan2="0">
+        <tripleoscillator vol1="129" pan1="0" coarse0="-24" wavetype0="3" finer2="0" vol2="60" coarse2="-24" wavetype1="7" finer1="10" finer0="15" stphdetun2="0" pan2="0" vol0="52" modalgo3="2" modalgo1="0" wavetype2="0" coarse1="-24" stphdetun0="0" phoffset2="256" modalgo2="3" pan0="0" phoffset0="2" userwavefile2="" finel1="-3" stphdetun1="0" finel0="-7" userwavefile1="" phoffset1="60" userwavefile0="" finel2="-5">
           <connection>
             <phoffset0 id="0"/>
           </connection>
         </tripleoscillator>
       </instrument>
-      <eldata fwet="1" fcut="113" fres="0.28999999" ftype="6">
-        <elvol userwavefile="" lamt="0" lspd_denominator="4" lspd_numerator="4" ctlenvamt="0" dec="2" hold="0.032000002" lspd_syncmode="0" latt="0" lpdel="0" rel="0.34400001" sustain="1" lshp="0" lspd="0.1" x100="0" pdel="0" amt="1" att="0"/>
-        <elcut userwavefile="" lamt="0" lspd_denominator="4" lspd_numerator="4" ctlenvamt="0" dec="0.62900001" hold="0" lspd_syncmode="0" latt="0" lpdel="0" rel="1.409" sustain="0.178" lshp="0" lspd="0.1" x100="0" pdel="0" amt="0.42999998" att="0"/>
-        <elres userwavefile="" lamt="0" lspd_denominator="4" lspd_numerator="4" ctlenvamt="0" dec="0.5" hold="0.5" lspd_syncmode="0" latt="0" lpdel="0" rel="0.1" sustain="0.5" lshp="0" lspd="0.1" x100="0" pdel="0" amt="0" att="0.12"/>
+      <eldata fres="0.64999998" fwet="1" ftype="6" fcut="57">
+        <elvol latt="0" att="0" pdel="0" amt="1" x100="0" lshp="0" lspd_syncmode="0" ctlenvamt="0" lspd_numerator="4" userwavefile="" hold="0" lspd="0.1" lamt="0" sustain="1" rel="1.7440001" lpdel="0" dec="2" lspd_denominator="4"/>
+        <elcut latt="0" att="0" pdel="0" amt="0.42999998" x100="0" lshp="0" lspd_syncmode="0" ctlenvamt="0" lspd_numerator="4" userwavefile="" hold="0" lspd="0.1" lamt="0" sustain="0.178" rel="1.409" lpdel="0" dec="0.62900001" lspd_denominator="4"/>
+        <elres latt="0" att="0.12" pdel="0" amt="0" x100="0" lshp="0" lspd_syncmode="0" ctlenvamt="0" lspd_numerator="4" userwavefile="" hold="0.5" lspd="0.1" lamt="0" sustain="0.5" rel="0.1" lpdel="0" dec="0.5" lspd_denominator="4"/>
       </eldata>
-      <chordcreator chord="0" chordrange="2" chord-enabled="0"/>
-      <arpeggiator arpgate="100" arpskip="0" arp="0" arptime="100" arpmiss="0" arptime_syncmode="0" arp-enabled="0" arpcycle="0" arptime_numerator="4" arprange="1" arptime_denominator="4" arpmode="0" arpdir="0"/>
-      <midiport basevelocity="63" outputcontroller="0" writable="0" inputcontroller="0" readable="0" fixedoutputvelocity="-1" fixedoutputnote="-1" fixedinputvelocity="-1" outputprogram="1" inputchannel="0" outputchannel="1"/>
+      <chordcreator chord="0" chord-enabled="0" chordrange="2"/>
+      <arpeggiator arpdir="0" arpskip="0" arptime_syncmode="0" arptime_numerator="4" arp-enabled="0" arptime_denominator="4" arptime="100" arp="0" arprange="1" arpcycle="0" arpmiss="0" arpgate="100" arpmode="0"/>
+      <midiport outputcontroller="0" writable="0" inputchannel="0" fixedinputvelocity="-1" basevelocity="63" fixedoutputnote="-1" readable="0" inputcontroller="0" outputchannel="1" outputprogram="1" fixedoutputvelocity="-1"/>
       <fxchain enabled="1" numofeffects="2">
-        <effect wet="1" autoquit_denominator="4" autoquit_syncmode="0" gate="0" autoquit_numerator="4" name="eq" autoquit="1" on="1">
-          <Eq LP48="0" LP="0" LowShelfres="1.4" Peak3active="1" AnalyseOut="1" Peak2gain="4.5" HPres="0.70700002" LP12="1" Peak4gain="8.6400003" HighShelfres="1.4" Peak2active="1" Peak4bw="2.207" HP24="0" Peak4active="1" Lowshelfactive="0" Peak2bw="3.9530001" Outputgain="0.02" HPactive="1" Highshelfactive="1" LPactive="1" Lowshelfgain="0" Peak3gain="17.280001" Peak1active="1" HP48="0" AnalyseIn="1" LPres="0.70700002" LP24="0" HighShelfgain="3.96" Peak1bw="0.30000001" HP12="1" Peak3bw="2.9320002" HP="0">
-            <Inputgain scale_type="log" value="0" id="1878125"/>
-            <Peak1gain scale_type="log" value="0" id="6396447"/>
-            <HPfreq scale_type="log" value="47.646233" id="6385214"/>
-            <LowShelffreq scale_type="log" value="80" id="7887136"/>
-            <Peak1freq scale_type="log" value="119.99998" id="354253"/>
-            <Peak2freq scale_type="log" value="139.51056" id="6068442"/>
-            <Peak3freq scale_type="log" value="5356.4561" id="1305655"/>
-            <Peak4freq scale_type="log" value="1800.5006" id="6398714"/>
-            <Highshelffreq scale_type="log" value="218.36395" id="1687382"/>
-            <LPfreq scale_type="log" value="633.77966" id="1057226"/>
+        <effect autoquit_numerator="4" name="eq" wet="1" autoquit_syncmode="0" autoquit="1" gate="0" on="1" autoquit_denominator="4">
+          <Eq Peak2gain="9.9000015" Lowshelfactive="1" Peak4active="1" Peak4gain="7.3800001" LP12="1" LP48="0" HP="0" HPres="0.70700002" Peak1bw="0.30000001" LPres="0.70700002" Peak2active="1" LP="0" HighShelfres="1.4" Peak1active="1" Peak4bw="2.207" HPactive="1" HP48="0" AnalyseOut="1" LowShelfres="1.4" Highshelfactive="1" LP24="0" Peak3active="1" Outputgain="0.02" HP12="1" AnalyseIn="1" HP24="0" Peak2bw="3.9530001" Peak3gain="-18" Peak3bw="2.9320002" LPactive="1" Lowshelfgain="-0.36000001" HighShelfgain="-10.08">
+            <Inputgain id="1878125" value="0" scale_type="log"/>
+            <Peak1gain id="6396447" value="-0.36000001" scale_type="log"/>
+            <HPfreq id="6385214" value="274.1759" scale_type="log"/>
+            <LowShelffreq id="7887136" value="90.453064" scale_type="log"/>
+            <Peak1freq id="354253" value="60.142452" scale_type="log"/>
+            <Peak2freq id="6068442" value="2387.4824" scale_type="log"/>
+            <Peak3freq id="1305655" value="7742.4316" scale_type="log"/>
+            <Peak4freq id="6398714" value="15924.295" scale_type="log"/>
+            <Highshelffreq id="1687382" value="6297.6855" scale_type="log"/>
+            <LPfreq id="1057226" value="3377.575" scale_type="log"/>
           </Eq>
           <key/>
         </effect>
-        <effect wet="1" autoquit_denominator="4" autoquit_syncmode="0" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit="1" on="1">
+        <effect autoquit_numerator="4" name="ladspaeffect" wet="1" autoquit_syncmode="0" autoquit="1" gate="0" on="1" autoquit_denominator="4">
           <ladspacontrols ports="4">
-            <port02 data="0.872235"/>
-            <port03 data="0.59732753"/>
-            <port04 data="0.88330805"/>
-            <port05 data="0.21625"/>
+            <port02 data="0.82626253"/>
+            <port03 data="0.71810377"/>
+            <port04 data="1"/>
+            <port05 data="0.39749998"/>
           </ladspacontrols>
           <key>
-            <attribute value="caps" name="file"/>
-            <attribute value="Plate2x2" name="plugin"/>
+            <attribute name="file" value="caps"/>
+            <attribute name="plugin" value="Plate2x2"/>
           </key>
         </effect>
       </fxchain>
